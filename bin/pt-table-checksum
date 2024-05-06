@@ -13295,7 +13295,7 @@ N columns of the index is a workaround for the bug in some cases.
 
 =item --chunk-size
 
-type: size; default: 1000
+type: size; default: 1
 
 Number of rows to select for each checksum query.  Allowable suffixes are
 k, M, G.  You should not use this option in most cases; prefer L<"--chunk-time">
